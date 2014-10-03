@@ -1,6 +1,8 @@
-class SomeJob
-  # enqueue with `QC.enqueue("SomeJob.perform")``
-  def self.perform
+# kick it in the console by using `SomeJob.perform_later`
+class SomeJob < ActiveJob::Base
+  queue_as :default
+
+  def perform
     puts QueueClassicJob.first.id
   end
 end
