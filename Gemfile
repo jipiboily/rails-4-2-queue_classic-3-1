@@ -5,7 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.0.beta2'
 gem 'pg'
 
-gem "queue_classic", "~> 3.0.0", github: 'jipiboily/queue_classic', branch: 'detect-rails-db-connection'
+# gem "queue_classic", "~> 3.0.0", github: 'jipiboily/queue_classic', branch: 'detect-rails-db-connection'
+gem "queue_classic", path: '/Users/jipiboily/code/queue_classic'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0.0.beta1'

@@ -1,7 +1,5 @@
-GIT
-  remote: git://github.com/jipiboily/queue_classic.git
-  revision: 8988b206dc6c388868d0e703d60e8c6ed9421145
-  branch: detect-rails-db-connection
+PATH
+  remote: /Users/jipiboily/code/queue_classic
   specs:
     queue_classic (3.0.1)
       pg (~> 0.17.0)
@@ -162,7 +160,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails (~> 4.0.0.beta2)
   pg
-  queue_classic (~> 3.0.0)!
+  queue_classic!
   rails (= 4.2.0.beta2)
   sass-rails (~> 5.0.0.beta1)
   sdoc (~> 0.4.0)
